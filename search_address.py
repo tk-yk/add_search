@@ -15,7 +15,7 @@ def search_address(zipcode):
 
 
 def main():
-    zipcode = "0287111"
+    zipcode = input("郵便番号は？")
 
     address = search_address(zipcode)
     print(address)
